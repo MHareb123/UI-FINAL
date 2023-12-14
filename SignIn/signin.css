@@ -1,0 +1,256 @@
+@import url('https://fonts.cdnfonts.com/css/zeuty-script-demo');
+@import url(https://db.onlinewebfonts.com/c/e75f0b55531fc763b03abfa65188cf63?family=Zeuty+Script+Demo+Demo);
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    height: 65px;
+    background-color: var(--main-blue);
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 96.655%;
+
+}
+
+nav img {
+    height: 45px;
+}
+
+nav #navlogo {
+    margin-left: 30px;
+}
+
+#ulelements {
+    display: flex;
+    margin: 0px;
+
+}
+
+#navright ul {
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#ulelements li {
+    margin: 15px;
+}
+
+ul li a#navright {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#elements {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#navright {
+    margin-right: 30px;
+}
+
+#navright ul {
+    display: flex;
+    align-items: center;
+}
+
+#navright input {
+    border-radius: 13px;
+    padding-left: 10px;
+    border: 1px solid var(--main-orange);
+    background-color: var(--main-orange);
+    border: none;
+    outline: none;
+    width: 130px;
+}
+
+#navright input::placeholder {
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: bold;
+}
+
+
+
+#navright ul li {
+    margin: 15px;
+}
+
+#Bag_alt {
+    width: 24px;
+    height: 24px;
+}
+
+#underline {
+    border-bottom: 2px solid var(--main-orange);
+    display: inline;
+    padding-bottom: 5px;
+}
+
+#welcomeback{
+    width:100%;
+    min-height: 220.5px;
+    background-color: var(--main-orange);
+}
+#signin{
+    min-height: 514.5px;
+    background-color: var(--main-blue);
+}
+
+
+
+#logintypes {
+   text-align: center;
+
+}
+
+#logintypes ul {
+    display: flex;
+    padding: 0px;
+
+
+}
+#inputtext{
+    color: #FFF;
+    
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#logintypes ul li {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid var(--main-orange);
+    width: 20px;
+    height: 20px;
+}
+
+#inputfields input {
+    border-radius: 31px;
+    background: #E1DDDD;
+    border-color: #E1DDDD;
+    margin: 20px;
+    width: 30%;
+    height: 37px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+ outline: none;
+}
+
+#inputfields input:focus {
+    border: 1px #E1DDDD;
+
+}
+
+#inputfields input::placeholder {
+    color: #AAACAD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+#signupbtn a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 49px;
+    padding-left: 49px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 13px;
+    background-color: var(--main-orange);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#signin{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   padding-top: 50px;
+    
+}
+#signin div{
+    margin-top: 10px;
+}
+
+#welcomeback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 220.5px;
+    background-color: var(--main-orange);
+}
+
+#welcome-back {
+    text-align: center;
+}
+#bottom {
+    font-size: 40px;
+    margin-top: -30px;
+    font-family: 'Zeuty Script Demo', sans-serif;
+    color: #FFF;
+    font-weight: 400;
+
+}
+
+
+#top {
+    color: var(--main-blue);
+    font-family: 'DELIRIUM NCV', sans-serif;
+    
+    
+
+}
+#welcome-back p {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.input-container i {
+    position: relative;
+    left: -260px;
+    /* Adjust the distance from the left */
+    top: 59px;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for vertical centering */
+    color: #888;
+    /* Set the color of the icon */
+    font-size: 20px;
+    opacity: 0.5;
+  }

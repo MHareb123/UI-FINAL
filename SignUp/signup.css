@@ -1,0 +1,290 @@
+@import url('https://fonts.cdnfonts.com/css/zeuty-script-demo');
+@import url(https://db.onlinewebfonts.com/c/e75f0b55531fc763b03abfa65188cf63?family=Zeuty+Script+Demo+Demo);
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+@font-face {
+    font-family: 'ZeutySans';
+    src: url(fonts/zeuty-sans.ttf),
+
+}
+
+@font-face {
+    font-family: 'ZeutyDemo';
+    src: url(fonts/ZeutyDemo.ttf),
+
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    height: 65px;
+    background-color: var(--main-blue);
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 96.655%;
+}
+
+nav img {
+    height: 45px;
+}
+
+nav #navlogo {
+    margin-left: 30px;
+}
+
+#ulelements {
+    display: flex;
+    margin: 0px;
+
+}
+
+#navright ul {
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#ulelements li {
+    margin: 15px;
+}
+
+ul li a#navright {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#elements {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#navright {
+    margin-right: 30px;
+}
+
+#navright ul {
+    display: flex;
+    align-items: center;
+}
+
+#navright input {
+    border-radius: 13px;
+    padding-left: 10px;
+    border: 1px solid var(--main-orange);
+    background-color: var(--main-orange);
+    border: none;
+    outline: none;
+    width: 130px;
+}
+
+#navright input::placeholder {
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: bold;
+}
+
+
+
+#navright ul li {
+    margin: 15px;
+}
+
+#Bag_alt {
+    width: 24px;
+    height: 24px;
+}
+
+#underline {
+    border-bottom: 2px solid var(--main-orange);
+
+    display: inline;
+    padding-bottom: 5px;
+}
+
+main {
+    display: flex;
+}
+
+#welcomeback {
+    width: 30%;
+    background-color: var(--main-orange);
+    height: 740px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1000px;
+}
+
+
+#welcome-back {
+    margin-top: 110px;
+}
+
+#welcomeback div {
+    margin-bottom: 100px;
+}
+
+
+
+
+#signinbtn {
+
+    padding-bottom: 45%;
+}
+
+#welcometext p {
+    color: var(--main-blue);
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+#signinbtn a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 49px;
+    padding-left: 49px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 13px;
+    background-color: var(--main-blue);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+#bottom {
+    margin-top: -25px;
+    font-family: ZeutyDemo;
+    color: #FFF;
+    font-size: 60px;
+}
+
+
+#top {
+    color: var(--main-blue);
+    font-size: 40px;
+    font-family: ZeutySans;
+
+}
+
+#createaccount {
+    background-color: var(--main-blue);
+    width: 70%;
+    height: 740px;
+    padding-bottom: 1000px;
+}
+
+#titlecreate p {
+    font-size: 40px;
+    font-family: ZeutySans;
+    color: #FFF;
+
+}
+
+
+
+#inputfields input {
+    border-radius: 31px;
+    background: #E1DDDD;
+    border-color: #E1DDDD;
+    margin: 20px;
+    width: 40%;
+    height: 37px;
+    padding-left: 87px;
+    border: none;
+    outline: none;
+}
+
+#inputfields input:focus {
+    border: 1px #E1DDDD;
+
+}
+
+#inputfields input::placeholder {
+    color: #AAACAD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+
+}
+
+#signupbtn a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 49px;
+    padding-left: 49px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 13px;
+    background-color: var(--main-orange);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#fix {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#fix div {
+    margin-top: 10px;
+}
+
+.input-container i {
+    position: relative;
+    left: 290px;
+    /* Adjust the distance from the left */
+    top: 69px;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for vertical centering */
+    color: #888;
+    /* Set the color of the icon */
+    font-size: 30px;
+    opacity: 0.5;
+    width: 25px;
+  }
+  .input-container {
+
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
